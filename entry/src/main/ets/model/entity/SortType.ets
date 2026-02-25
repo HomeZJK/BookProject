@@ -1,0 +1,1 @@
+export type SortType = "sales" | "price" | "comments_count"

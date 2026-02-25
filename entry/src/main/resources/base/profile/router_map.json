@@ -1,0 +1,84 @@
+{
+  "routerMap": [
+    {
+      "name": "GoodsDetails",
+      "pageSourceFile": "src/main/ets/pages/GoodsDetails.ets",
+      "buildFunction": "GoodsDetailsBuilder",
+      "data": {
+        "description": "商品详情"
+      }
+    },
+    {
+      "name": "Login",
+      "pageSourceFile": "src/main/ets/pages/Login.ets",
+      "buildFunction": "LoginBuilder",
+      "data": {
+        "description": "登录"
+      }
+    },
+    {
+      "name": "AboutUs",
+      "pageSourceFile": "src/main/ets/pages/AboutUs.ets",
+      "buildFunction": "AboutUsBuilder",
+      "data": {
+        "description": "关于我们"
+      }
+    },
+    {
+      "name": "AddressEdit",
+      "pageSourceFile": "src/main/ets/pages/AddressEdit.ets",
+      "buildFunction": "AddressEditBuilder",
+      "data": {
+        "description": "地址编辑"
+      }
+    },
+    {
+      "name": "AddressManagement",
+      "pageSourceFile": "src/main/ets/pages/AddressManagement.ets",
+      "buildFunction": "AddressManagementBuilder",
+      "data": {
+        "description": "地址管理"
+      }
+    },
+    {
+      "name": "MyFavorite",
+      "pageSourceFile": "src/main/ets/pages/MyFavorite.ets",
+      "buildFunction": "MyFavoriteBuilder",
+      "data": {
+        "description": "我的收藏"
+      }
+    },
+    {
+      "name": "MyOrder",
+      "pageSourceFile": "src/main/ets/pages/MyOrder.ets",
+      "buildFunction": "MyOrderBuilder",
+      "data": {
+        "description": "我的订单"
+      }
+    },
+    {
+      "name": "OrderDetails",
+      "pageSourceFile": "src/main/ets/pages/OrderDetails.ets",
+      "buildFunction": "OrderDetailsBuilder",
+      "data": {
+        "description": "订单详情"
+      }
+    },
+    {
+      "name": "OrderPreview",
+      "pageSourceFile": "src/main/ets/pages/OrderPreview.ets",
+      "buildFunction": "OrderPreviewBuilder",
+      "data": {
+        "description": "订单预览"
+      }
+    },
+    {
+      "name": "Setting",
+      "pageSourceFile": "src/main/ets/pages/Setting.ets",
+      "buildFunction": "SettingBuilder",
+      "data": {
+        "description": "账号管理"
+      }
+    }
+  ]
+}

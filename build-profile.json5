@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\adminAKUAN\\.ohos\\config\\default_BookShop-master-a199ba6861b7eb805024fe9a3a48924b70bcb370_AthGLEyWTzLLDu8rr7ZrF8GDir85EcEMqEoLoM768tM=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BA6F473461955D8E2DE59031C9E3239B3635366D038EA3EF3F9320AA3BD8394B0E98013DBF7CD41",
+          "profile": "C:\\Users\\adminAKUAN\\.ohos\\config\\default_BookShop-master-a199ba6861b7eb805024fe9a3a48924b70bcb370_AthGLEyWTzLLDu8rr7ZrF8GDir85EcEMqEoLoM768tM=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\adminAKUAN\\.ohos\\config\\default_BookShop-master-a199ba6861b7eb805024fe9a3a48924b70bcb370_AthGLEyWTzLLDu8rr7ZrF8GDir85EcEMqEoLoM768tM=.p12",
+          "storePassword": "0000001B40881E499268E5D33221EB010F950BBC4091819F8C0E88D2A380B762A2FF479DE7C861EDF51A2F"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.1(21)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

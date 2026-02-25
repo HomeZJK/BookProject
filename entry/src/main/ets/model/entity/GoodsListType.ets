@@ -1,0 +1,1 @@
+export type GoodsListType = "sales" | "recommend" | "new"
